@@ -1,0 +1,479 @@
+
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  gap: 20px;
+  width: 100%;
+}
+
+.logo svg {
+  width: 134px;
+  height: 31px;
+  top: 13.5px;
+  left: 34.63px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.navbar-category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 24px;
+  flex: none;
+  margin-right: 20px;
+}
+.navbar-category p {
+  width: 70px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FF4048;
+  flex: none;
+}
+.navbar-search {
+  margin-right: 20px;
+}
+.navbar-search input {
+width: 366.91px;
+height: 44px;
+color: #C9C9C9;
+border: 1px solid #C9C9C9;
+border-radius: 25px;
+}
+.navbar-search input::placeholder {
+position: absolute;
+height: 21px;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 150%;
+color: #C9C9C9;
+}
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+.navbar-search button {
+  margin-left: -55px;
+}
+.navbar-pages {
+  display: flex;
+  gap: 10px;
+  color: #484C57;
+  margin-right: 20px;
+}
+.navbar-pages p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  gap: 10px;
+}
+.navbar-pages p:hover {
+  color : #FF4048;
+}
+.navbar-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:transparent;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: #E2E7F3;
+  position: relative;
+  margin-right: 20px;
+}
+.navbar-notification i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.notif{
+  border: transparent;
+  border-radius: 100px;
+  background-color: #FF4048;
+  width: 9px;
+  height: 9px;
+  top: 0px; 
+  right: 0px; 
+  position: absolute;
+}
+
+.navbar-lang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.lang-ina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:transparent;
+  border-radius: 100px;
+  width: 84px;
+  height: 45px;
+  gap: 10px;
+  opacity: 0px;
+  position: static;
+}
+
+.lang-polygon {
+  width: 29.12px;
+  height: 15.4px;
+  position: sticky;
+}
+
+.lang-polygon svg {
+  background-color: transparent;
+}
+
+.lang-eng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:transparent;
+  border-radius: 100px;
+  width: 84px;
+  height: 45px;
+  gap: 10px;
+  opacity: 0px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  position: sticky;
+  margin-top: -4px;
+}
+
+.navbar-account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:transparent;
+  border-radius: 100px;
+  width: 84px;
+  height: 45px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+}
+
+.navbar-toggler {
+  background-color: #2ECD71;
+  color: #484C57;
+}
+
+/* card materi */
+
+.card-materi {
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 321px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  background-color: #FFFFFF;
+  margin-bottom: 25px;
+  margin-right: 2px;
+}
+.card-image {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+.card-image-logo {
+  margin-bottom: -90px;
+  padding: 16px;  
+}
+.materi-level {
+max-width: 75px;
+max-height: 20.12px;
+border-radius: 6px;
+opacity: 0px;
+background-color: #2ECD71;
+text-align: center;
+color: #FFFFFF;
+margin-left: 16px;
+margin-top: -60px;
+margin-bottom: 18px;
+font-size: 12px;
+padding: 4px, 10px, 4px, 10px;
+line-height: 18px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+.card-content {
+  padding: 16px;  
+}
+.card-title {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 15px ;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  color: #484C57;
+
+}
+
+.card-description {
+  max-width: 100px;
+  max-height: 26px;
+  font-size: 12px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  background-color: #484C57;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 4px, 8px, 4px, 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-materi-keterangan {
+  gap: 4px;
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 8px;
+
+}
+.card-materi-status {
+  display: flex;
+  align-items: center;
+  max-height: 22px;
+  color: #969CA9;
+  padding: 2px, 0px, 2px, 0px;
+  gap: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.card-materi-status p {
+  margin: 0;
+}
+
+.card-materi-gimmick {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* footer */
+
+.footer {
+width: 100%;
+justify-content: space-evenly;
+background-color: #e61616;
+padding: 64px 80px;
+position: absolute;
+background: #FFFFFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.footer-section-left {
+  color: #484C57;
+}
+.footer-svg-logo {
+  margin-bottom: 40px;
+}
+.footer-socmed {
+  color: #FF4048 ;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-logo {
+  max-width: 32px;
+  max-height: 32px;
+  gap: 0px;
+  border: transparent;
+  border-radius: 100px;
+  background-color: rgba(255, 0, 0, 0.11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  color: #484C57;
+}
+footer a:hover {
+  color: #FF4048;
+}
+.footer-section-right {
+  display: flex;
+  color: #484C57;
+}
+.footer-section-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.footer-section-content p {
+  font-size: 20px;
+}
+.footer-section-content a {
+  text-decoration: none;
+  margin: 5px;
+}
+.footer-section-content img {
+  width: 120px;
+}
+.social-media a {
+  margin: 0 5px;
+}
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* filter */
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 680px;
+  max-height: 700px ;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E7F3;
+  box-shadow: #E2E7F3 0px 0px 0px 1px;
+  border-radius: 15px;
+  color: #5B5B5B;
+}
+.filter-title {
+  border-bottom: #E7E7E7 1px solid;
+  display: flex;
+  margin-bottom: 15px;;  
+}
+.filter-title h4 {
+  width: 50px;
+  height: 30px;
+  left: 20px;
+  top: 30.83px;
+  font-size: 20px;
+  line-height: 150%;
+}
+.filter-level-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.filter-level {
+  border-bottom: #E7E7E7 1px solid;
+  margin-bottom: 15px;
+}
+.filter-level-title {
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Hide the default checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+/* Style the custom checkbox */
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F0F0F0;
+  border: transparent;
+  cursor: pointer;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/* Show the checkmark when checked */
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: red;
+}
+input[type="checkbox"]:checked + .custom-checkbox::after {
+  display: block;
+}
+.filter-kategori {
+  margin-bottom: 0;
+}
+.filter-sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Pagination */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 20px;
+  margin-bottom: 0;
+  
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: transparent;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: #e9e9e9;
+}
+
+.pagination button.active {
+  background-color: #FF4048;
+  color: white;
+}
+
+.pagination button:disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination select {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+
+
