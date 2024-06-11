@@ -8,6 +8,7 @@ body {
 
 .materi-page {
   display: flex;
+  flex-wrap: nowrap;
   margin-top: 80px;
   padding: 80px ;
   gap: 40px;
@@ -19,10 +20,7 @@ body {
   width: 100%;
 } */
 .materi-page-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  gap : 20px;
 
 }
 

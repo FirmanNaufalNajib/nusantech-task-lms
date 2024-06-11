@@ -21,19 +21,16 @@
 
 .navbar-category {
   display: flex;
-  align-items: center;
   gap: 10px;
   height: 24px;
   flex: none;
   margin-right: 20px;
 }
 .navbar-category p {
-  width: 70px;
-  height: 24px;
+ 
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
   color: #FF4048;
   flex: none;
 }
@@ -66,6 +63,7 @@ color: #C9C9C9;
 }
 .navbar-pages {
   display: flex;
+  align-items: center;
   gap: 10px;
   color: #484C57;
   margin-right: 20px;
@@ -182,15 +180,16 @@ color: #C9C9C9;
   border: 1px solid #ddd;
   border-radius: 24px;
   overflow: hidden;
-  max-width: 321px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: -1;
   background-color: #FFFFFF;
-  margin-bottom: 25px;
   margin-right: 2px;
+  width: 321px;
+  box-sizing: border-box;
+  padding: 0;
 }
 .card-image {
-  width: 100%;
+
   z-index: -1;
   position: relative;
 }
@@ -289,6 +288,7 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 
+
 }
 .footer-section-left {
   color: #484C57;
@@ -301,10 +301,11 @@ flex-wrap: wrap;
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 .footer-logo {
-  max-width: 32px;
-  max-height: 32px;
+  width: 32px;
+  height: 32px;
   gap: 0px;
   border: transparent;
   border-radius: 100px;
@@ -353,13 +354,14 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 680px;
+  width: 321px;
   max-height: 700px ;
   background-color: #FFFFFF;
   border: 1px solid #E2E7F3;
   box-shadow: #E2E7F3 0px 0px 0px 1px;
   border-radius: 15px;
   color: #5B5B5B;
+  padding-bottom: 30px;
 }
 .filter-title {
   border-bottom: #E7E7E7 1px solid;
@@ -378,6 +380,7 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap : 10px;
 }
 .filter-level {
   border-bottom: #E7E7E7 1px solid;
@@ -430,7 +433,19 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   align-items: center;
   gap: 10px;
 }
+.filter-category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  overflow-y: auto;
+  padding: 0;
+}
 
+.filter-category-list a {
+  text-decoration: none;
+  margin: 0;
+}
 
 /* Pagination */
 
@@ -439,8 +454,6 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   align-items: center;
   justify-content: end;
   margin-top: 20px;
-  margin-bottom: 0;
-  
 }
 
 .pagination button {
